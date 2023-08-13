@@ -1,2 +1,2 @@
-# MyPortfoloioo7
-Personal Portfolo
+# MyPortfoliooo7
+Personal Portfolio using HTML,CSS and Java Script
