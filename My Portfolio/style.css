@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: #1e183d; */
+  font-family: "Orbitron", sans-serif;
+  /* background-color: #4834d4;
+background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);*/
+/* background-color: #f3f4f7; */
+/* background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%); */
+/* background-image: linear-gradient(to right top, #575355, #464548, #37383a, #292b2c, #1c1e1e, #272929, #323434, #3d3f3f, #676969, #949797, #c3c7c7, #f5f9f9); */
+/* background-image: linear-gradient(to right top, #a89ea3, #b7b0b5, #c6c2c6, #d6d4d7, #e7e6e8, #ececee, #f1f1f3, #f6f7f8, #eef1f3, #e6ebed, #dee6e7, #d6e0e0); */
+/* background-image: linear-gradient(to right top, #a89ea3, #867f84, #676266, #494649, #2d2c2e, #262628, #1f2021, #191a1b, #232526, #2d3031, #373c3d, #424848); */
+/* background-image: linear-gradient(to right top, #a89ea3, #959097, #83838a, #71767c, #62696c, #697072, #717779, #797e7f, #999c9e, #bbbcbe, #ddddde, #ffffff); */
+/* background-image: linear-gradient(to right top, #000000, #161515, #232324, #303134, #3d4143, #505556, #64696a, #797e7f, #999c9e, #bbbcbe, #ddddde, #ffffff); */
+/* background-image: linear-gradient(to right top, #0d0d0d, #343434, #5e5e5e, #8b8b8b, #bbbbbb, #bababa, #bababa, #b9b9b9, #878787, #585858, #2e2e2e, #000000); */
+background-image: linear-gradient(to right top, #fcfcff, #cdcdd5, #a09fac, #757485, #4d4b60, #3d3a56, #2c294b, #1c1941, #1c184c, #1b1757, #1a1562, #1a126d);
+
+} 
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  /* background-color: background-color: #36096d; */
+  /* background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); */
+  /* background-color: #2234ae;
+background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%); */
+/* background-color: #f3f4f7; */
+/* background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%); */
+/* background-image: linear-gradient(to right top, #575355, #464548, #37383a, #292b2c, #1c1e1e, #272929, #323434, #3d3f3f, #676969, #949797, #c3c7c7, #f5f9f9); */
+ background-image: linear-gradient(to right top, #a89ea3, #b7b0b5, #c6c2c6, #d6d4d7, #e7e6e8, #ececee, #f1f1f3, #f6f7f8, #eef1f3, #e6ebed, )
+
+
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: text-shadow 0.5s,;
+}
+nav ul li a:hover {
+  /* color: rgb(161, 178, 11);*/
+  font-size: 1.5rem; 
+  text-shadow: -2px -2px 10px #fff,
+              2px 2px 10px #fff,
+              0 0 20px #f10,
+              0 0 40px #f10,
+              0 0 60px #f10,
+              0 0 80px #f10,
+              0 0 100px #f10;
+}
+
+main hr {
+  border: 0;
+  background: aquamarine;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.left a{
+  text-decoration: none;
+  /* font-size: 1.5rem;
+  color: rgb(255, 255, 255); */
+
+  color: #fff;
+  /* border:4px solid #fff; */
+  padding: 30px 70px;
+  width: fit-content;
+  margin: 200px auto;
+  font-size: 50px;
+  font-weight: 400;
+  transition: text-shadow 0.5s,;
+  -webkit-text-stroke: 1px #000;
+
+
+
+}
+.left:hover {
+  /* color: rgb(16, 8, 76);
+  font-size: 2.2rem; */
+
+  text-shadow: -2px -2px 10px #fff,
+              2px 2px 10px #fff,
+              0 0 20px #f10,
+              0 0 40px #f10,
+              0 0 60px #f10,
+              0 0 80px #f10,
+              0 0 100px #f10;
+  /* box-shadow: 0 0 5px #fff,
+              inset 0 0 5px #fff,
+              0 0 20px #08f,
+              inset 0 0 40px #fff, */
+              
+
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  align-items: center;
+}
+
+.firstsection > div {
+  width: 40%;
+}
+
+.leftsection {
+  font-size: 3rem;
+  /* margin: 70px 0; */
+  color: rgb(255, 255, 255);
+  
+}
+.leftsection .btn {
+  padding: 1px;
+  background-color:rgb(99, 147, 4);
+  border: 2px solid rgb(9, 67, 3);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.leftsection .button{
+    padding: 20px;
+}
+
+.rightsection img {
+  width: 90%;
+  margin: 50px 0;
+  justify-content: space-between;
+  border-radius: 100px;
+  filter: drop-shadow(10px 10px 20px rgb(20, 19, 19));
+}
+/* 
+.rightsection:hover{
+  width: 40%;
+  margin: 50px 0;
+  justify-content: space-between;
+  border-radius: 100px;
+  filter: drop-shadow(10px 10px 20px rgb(236, 15, 15));
+} */
+
+.rightsection div{
+  display: flex;
+  justify-content: space-between;
+}
+.purple {
+    color: rgb(244, 244, 24);
+}
+.text-gray {
+  color: rgb(255, 255, 255);
+}
+
+#element {
+  color: rgb(244, 244, 24);
+  -webkit-text-stroke: 1px #000;
+}
+
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondsection h1 {
+  font-size: 2.2rem;
+  color: rgb(255, 252, 252);
+}
+.secondsection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background: white;
+  margin: 0 110px;
+}
+.image-top {
+  width: 30px;
+  position: relative;
+  top: -32px;
+}
+.vertical-title {
+  position: relative;
+  top: 65px;
+  width: 150px;
+  color: rgb(255, 255, 255);
+}
+.vertical-disc {
+  position: relative;
+  top: 72px;
+  color: rgb(248, 243, 243);
+  width: 150px;
+  font-size: 9px;
+}
+footer{
+    /* background-color: #0d032a; */
+    /* height: 100px; */
+    /* background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); */
+/* background-color: #2234ae; */
+/* background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%); */
+background-image: linear-gradient(to right top, #fbfbfb, #ceced1, #a3a2a8, #797982, #52525d, #414256, #30334e, #1d2447, #192458, #132469, #0e2379, #0e2089);
+
+
+    
+}
+.footer{
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    list-style: none;
+    color: rgb(238, 231, 231);
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .footer-rights{
+text-align: center;
+color: rgb(247, 238, 238);
+padding: 12px 0;
+}
+@media screen and (max-width: 2000px) {
+  
+}
+h3{
+    color: white;
+}
